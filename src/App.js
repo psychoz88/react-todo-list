@@ -13,6 +13,7 @@ const AddTodo = React.lazy(
 )
 
 function App() {
+  console.log('application started')
   const [todos, setTodos] = useState([]);
   const [loading, setLoading] = useState(true); // [variable, function]
 
